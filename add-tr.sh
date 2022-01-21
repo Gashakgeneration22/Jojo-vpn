@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By geo"
+echo "Script By JOESATRIA22"
 clear
 uuid=$(cat /etc/trojan/uuid.txt)
 source /var/lib/premium-script/ipvps.conf
@@ -52,5 +52,5 @@ echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe${off}"
 echo -e "==========================="
 echo -e ""
-echo -e "Script By @sampiiiiu"
+echo -e "Script By @JOESATRIA22"
 echo -e ""
