@@ -17,7 +17,7 @@ echo -e "======================================="
 echo -e ""
 echo -e "${RED}Permission Denied...!!! ${NC}"
 echo -e "IP VPS ANDA BELUM TERDAFTAR"
-echo -e "Contact WA https//wa.me/+6282339191527"
+echo -e "Contact WA https//wa.me/+6287768313054"
 echo -e "For Registration IP VPS"
 echo -e ""
 echo -e "======================================="
@@ -135,12 +135,12 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : GEO GABUT"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
-echo "   - Instagram               : @sampiiiiu"  | tee -a log-install.txt
+echo "   - Dev/Main                : JOESATRIA22 X GASHAKVPN"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/JOESATRIA22"  | tee -a log-install.txt
+echo "   - Instagram               : @JOESATRIA22"  | tee -a log-install.txt
 echo "   - Whatsapp                : 085333790161"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/MuhammadAmin" | tee -a log-install.txt
-echo "------------------Script Created By geo-----------------" | tee -a log-install.txt
+echo "   - Facebook                : Aku Jojo" | tee -a log-install.txt
+echo "------------------Script Created By JOESATRIA22-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
