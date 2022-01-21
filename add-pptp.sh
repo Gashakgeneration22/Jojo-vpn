@@ -48,6 +48,6 @@ ${green}Aktif Selama   : $masaaktif Hari
 Dibuat Pada    : $tnggl
 Berakhir Pada  : $expe${off}
 
-Script By @sampiiiiu
+Script By @JOESATRIA22
 =================================
 EOF
