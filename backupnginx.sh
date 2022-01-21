@@ -39,7 +39,7 @@ Link download: http://$MYIP:81/backup.zip
 
 Untuk restore file backup anda, sila download dan upload file diatas secara manual
 
-Terima kasih telah menggunakan script Geo Gabut"
+Terima kasih telah menggunakan script JOESATRIA22"
 echo -e ""
 rm -rf /root/backup
 rm -r /root/backup.zip
