@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By geo"
+echo "Script By JOESATRIA22"
 clear
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/v2ray/domain)
