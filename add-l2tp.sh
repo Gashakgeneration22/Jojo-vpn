@@ -3,7 +3,7 @@ red='\e[1;31m'
 green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
-echo "Script By Geo"
+echo "Script By JOESATRIA22"
 clear
 if [[ "$IP2" = "" ]]; then
 domain=$(cat /etc/v2ray/domain)
@@ -67,6 +67,6 @@ Dibuat Pada    : $tnggl
 Berakhir Pada  : $expe${off}
 ====================================
 
-Script By @sampiiiiu
+Script By @JOESATRIA22
 ====================================
 EOF
