@@ -43,9 +43,9 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "add": "${domain}",
       "port": "${tls}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
-      "path": "geo",
+      "path": "/jojo",
       "type": "none",
       "host": "${bug}",
       "tls": "tls"
@@ -58,9 +58,9 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "add": "${bug}",
       "port": "${none}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
-      "path": "geo",
+      "path": "/jojo",
       "type": "none",
       "host": "${domain}",
       "tls": "none"
@@ -87,10 +87,10 @@ echo -e " Domain         : ${domain}"
 echo -e " Port TLS       : ${tls}"
 echo -e " Port NON-TLS   : ${none}"
 echo -e " ID             : ${uuid}"
-echo -e " AlterID        : 2"
+echo -e " AlterID        : 0"
 echo -e " Security       : auto"
 echo -e " Network        : ws"
-echo -e " Path           : /NTB${off}"
+echo -e " Path           : /jojo${off}"
 echo -e "${cyan}=================================${off}"
 echo -e "${purple}~> VMESS TLS${off}"
 echo -e ""
