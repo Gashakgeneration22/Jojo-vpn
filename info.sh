@@ -2,4 +2,4 @@
 
 clear
 neofetch
-echo -e "by GEO GABUT" | lolcat""
+echo -e "by JOESATRIA22" | lolcat""
