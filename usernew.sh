@@ -121,7 +121,7 @@ echo -e "Badvpn Udpgw  : 7100-7300"
 echo -e "===============================" | lolcat
 echo -e "OpenVPN TCP   : $ovpn http://$IP:81/client-tcp-$ovpn.ovpn"
 echo -e "OpenVPN UDP   : $ovpn2 http://$IP:81/client-udp-$ovpn2.ovpn"
-echo -e "OpenVPN SSL   : 442  http://$IP:81/client-tcp-ssl.ovpn"
+echo -e "OpenVPN SSL   : http://$IP:81/client-tcp-ssl.ovpn"
 echo -e "===============================" | lolcat
 echo -e "Payload WebSocket"
 echo -e "GET / HTTP/1.1[crlf]Host: $domain[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]"
