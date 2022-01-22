@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# By geo
+# By JOESATRIA22
 # ==================================================
 
 # initialisasi var
