@@ -4,7 +4,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 echo "Checking VPS"
-IZIN=$( curl https://raw.githubusercontent.com/Sangarya/VIP/main/install/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 else
@@ -55,5 +55,5 @@ echo " ============================" | lolcat
 echo " Client Name : $user"
 echo " Expired On  : $exp4"
 echo " ============================" | lolcat
-echo " Script Installer By : Adityah•NTB"
+echo " Script Installer By : JOESATRIA22"
 echo " ============================" | lolcat
