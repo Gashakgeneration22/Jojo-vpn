@@ -36,9 +36,9 @@ tnggl="$tgl2 $bln2, $thn2"
 exp=`date -d "$masaaktif days" +"%d-%m-%Y"`
 created=`date -d "0 days" +"%d-%m-%Y"`
 sed -i '/#tls$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"2"',"email": "'""$user""'"' /etc/v2ray/config.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/config.json
 sed -i '/#none$/a\### '"$user $exp"'\
-},{"id": "'""$uuid""'","alterId": '"2"',"email": "'""$user""'"' /etc/v2ray/none.json
+},{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/v2ray/none.json
 cat>/etc/v2ray/$user-tls.json<<EOF
       {
       "v": "2",
@@ -89,7 +89,7 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 0"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path               : /jojo"
+echo -e "path           : /jojo"
 echo -e "==========================="
 echo -e " ${green}Aktif Selama   : $masaaktif Hari"
 echo -e " Dibuat Pada    : $tnggl"
