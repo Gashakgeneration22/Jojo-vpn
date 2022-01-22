@@ -243,7 +243,7 @@ cat> /etc/v2ray/vless.json << END
           ]
         },
         "wsSettings": {
-          "path": "geo",
+          "path": "/jojo",
           "headers": {
             "Host": ""
           }
