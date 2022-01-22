@@ -38,7 +38,7 @@ echo " Start Uninstall Webmin"
 clear
 echo ""
 echo " Done Restart Webmin"
-echo " AutoScriptVPS By  geo"
+echo " AutoScriptVPS By  JOESATRIA22"
 }
 function uninstall () {
 echo " Removing Repositori Webmin"
@@ -51,7 +51,7 @@ apt autoremove --purge webmin -y > /dev/null 2>&1
 clear
 echo ""
 echo " Done Uninstall Webmin"
-echo " AutoScriptVPS By  geo"
+echo " AutoScriptVPS By  JOESATRIA22"
 }
 if [[ "$cek" = "perl" ]]; then
 sts="${Info}"
@@ -66,7 +66,7 @@ echo -e " Status $sts"
 echo -e "  1. Install Webmin"
 echo -e "  2. Restart Webmin"
 echo -e "  3. Uninstall Webmin"
-echo -e " AutoScriptVPS By  geo"
+echo -e " AutoScriptVPS By JOESATRIA22"
 echo -e " Press CTRL+C to return"
 read -rp " Please Enter The Correct Number : " -e num
 if [[ "$num" = "1" ]]; then
