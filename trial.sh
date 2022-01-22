@@ -75,6 +75,6 @@ echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe"
 echo -e "================================="
 echo -e ""
-echo -e " Script Installer By : Geo Gabut•NTB"
+echo -e " Script Installer By : JOESATRIA22"
 echo -e ""
 echo -e "===============================" | lolcat
