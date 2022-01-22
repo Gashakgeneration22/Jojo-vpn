@@ -75,7 +75,7 @@ rm -f /root/edu.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
-Documentation=https://geoganteng.tech
+Documentation=https://gashak22.online
 
 [Service]
 Type=oneshot
