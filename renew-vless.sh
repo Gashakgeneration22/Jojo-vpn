@@ -48,5 +48,5 @@ echo " ============================" | lolcat
 echo " Client Name : $user"
 echo " Expired On  : $exp4"
 echo " ============================" | lolcat
-echo " Script Installer By : Geo•NTB"
+echo " Script Installer By : JOESATRIA22"
 echo " ============================" | lolcat
