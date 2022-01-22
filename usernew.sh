@@ -14,7 +14,7 @@ flag='\x1b[47;41m'
 MYIP=$(wget -qO- icanhazip.com);
 echo -e  "${red}Checking VPS${NC}"
 sleep 2
-IZIN=$( curl https://raw.githubusercontent.com/ADITYAH2/halucok/main/ipvps | grep $MYIP )
+IZIN=$( curl https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
 echo -e "${green}Permission Accepted...${NC}"
 sleep 2 
@@ -23,7 +23,7 @@ clear
 echo -e ""
 echo -e "======================================="
 echo -e "${red}===[ Permission Denied...!!! ]===${NC}";
-echo -e "Contact WA https//wa.me/+6282339191527"
+echo -e "Contact WA https//wa.me/+6287768313054"
 echo -e "For Registration IP VPS"
 echo -e "======================================="
 echo -e ""
@@ -132,5 +132,5 @@ echo -e " Dibuat Pada    : $tnggl"
 echo -e " Berakhir Pada  : $expe"
 echo -e "================================="
 echo -e ""
-echo -e " Script Installer By : Geo•NTB"
+echo -e " Script Installer By : JOESATRIA22"
 echo -e "===============================" | lolcat
