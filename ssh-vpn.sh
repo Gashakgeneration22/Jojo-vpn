@@ -430,7 +430,7 @@ wget -O update "https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/ma
 wget -O /usr/bin/clear-log https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/clear-log && chmod +x /usr/bin/clear-log && cd /usr/bin && apt install -y dos2unix && dos2unix clear-log
 wget -O xp "https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/xp.sh"
 wget -O /usr/bin/user-limit https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/user-limit.sh && chmod +x /usr/bin/user-limit
-#wget -O /usr/bin/paket https://halucok.me/menu-all/paket.sh && chmod +x /usr/bin/paket.sh
+#wget -O /usr/bin/paket https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/paket.sh && chmod +x /usr/bin/paket.sh
 wget -O cfd "https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/cfd.sh"
 wget -O cff "https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/cff.sh"
 wget -O cfh "https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/cfh.sh"
