@@ -32,7 +32,7 @@ exit 0
 fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/add-host.sh && chmod +x dd-host.sh && ./dd-host.sh
 #install ssh ovpn
 wget https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
