@@ -14,7 +14,6 @@ echo ""
 echo "Please Input Your Pointing Domain In Cloudflare "
 read -rp "Domain/Host: " -e host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
-rm -f /etc/v2ray/domain
 cat > /etc/v2ray/domain << END
 $host
 END
