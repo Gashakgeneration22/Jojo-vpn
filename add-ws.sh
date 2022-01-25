@@ -7,7 +7,7 @@ echo "Script By JOESATRIA22"
 clear
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
-domain=$(cat /etc/v2ray/domain)
+domain=$(cat /home/domain)
 else
 domain=$IP
 fi
