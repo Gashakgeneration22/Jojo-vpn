@@ -6,7 +6,7 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By JOESATRIA22"
 clear
 if [[ "$IP2" = "" ]]; then
-domain=$(cat /etc/v2ray/domain)
+domain=$(cat /home/domain)
 else
 domain=$IP2
 fi
