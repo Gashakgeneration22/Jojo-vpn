@@ -14,9 +14,8 @@ echo ""
 echo "Please Input Your Pointing Domain In Cloudflare "
 read -rp "Domain/Host: " -e host
 echo "IP=$host" >> /var/lib/premium-script/ipvps.conf
-cat > /etc/v2ray/domain << END
-$host
-END
+rm -f /home/domain
+echo "$host" > /home/domain
 echo -e "[${GREEN}Done${NC}]"
 
 #Update Sertificate SSL
