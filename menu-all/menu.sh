@@ -12,7 +12,7 @@ clear
 cat /usr/bin/bannerku | lolcat
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 IPVPS=$(curl -s ipinfo.io/ip )
-DOMAIN=$(cat /etc/v2ray/domain)
+DOMAIN=$(cat /home/domain)
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
 CITY=$(curl -s ipinfo.io/city )
 WKT=$(curl -s ipinfo.io/timezone )
