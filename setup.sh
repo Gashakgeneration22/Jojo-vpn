@@ -8,7 +8,7 @@ echo -e  "${RED}MENGECEK VPS${NC}"
 sleep 2
 IZIN=$( curl https://raw.githubusercontent.com/Gashakgeneration22/Jojo-vpn/main/ipvps | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
-echo -e "${GREEN}PERMINTAAN DITERIMAH...${NC}"
+echo -e "${GREEN}PERMINTAAN DITERIMA....${NC}"
 sleep 2 
 else
 clear
@@ -26,7 +26,7 @@ rm setup.sh
 exit 0
 fi
 echo -e  "${RED}Checking VPS Domain${NC}"
-if [ -f "/etc/v2ray/domain" ]; then
+if [ -f "/home/domain" ]; then
 echo "Script Already Installed!!"
 exit 0
 fi
