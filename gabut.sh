@@ -278,7 +278,7 @@ jam=`date -d "0 days" +"%X"`
 tipeos2=$(uname -m)
 
 # Getting Domain Name
-Domen="$(cat /etc/v2ray/domain)"
+Domen="$(cat /home/domain)"
 
 # Echoing Result
 echo -e ""
