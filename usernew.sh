@@ -71,7 +71,7 @@ COUNTRY=$(curl -s ipinfo.io/country )
 clear
 read -p "Username : " Login
 read -p "Password : " Pass
-read -p "Masukan Bug" Bug
+read -p "Masukan Bug: " Bug
 read -p "Expired (hari): " masaaktif
 
 source /var/lib/premium-script/ipvps.conf
