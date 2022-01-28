@@ -27,7 +27,7 @@ ovpn="$(netstat -nlpt | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | c
 ovpn2="$(netstat -nlpu | grep -i openvpn | grep -i 0.0.0.0 | awk '{print $4}' | cut -d: -f2)"
 clear
 if [[ "$IP2" = "" ]]; then
-domain=$(cat /etc/v2ray/domain)
+domain=$(cat /home/domain)
 else
 domain=$IP2
 fi
