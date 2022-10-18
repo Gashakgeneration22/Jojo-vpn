@@ -519,4 +519,4 @@ chmod +x renew-tr
 chmod +x certv2ray
 cd
 rm -f ins-vt.sh
-mv /root/domain /etc/v2ray
+mv /home/domain /etc/v2ray
